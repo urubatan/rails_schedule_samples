@@ -1,2 +1,2 @@
 This is the sample code generated for a basic tutorial posted at my blog, you are free to use and change this sample.
-The blog post that uses this sample is located at this URL: http://www.urubatan.com.br/agendamento-de-tarefas-com-ruby-e-rails
+The blog post that uses this sample is located at this URL: http://www.urubatan.com.br/agendamento-de-tarefas-muito-facil-com-com-ruby-on-rails/
