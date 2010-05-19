@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  cron: MyString
+  times: 1
+  done: false
+
+two:
+  name: MyString
+  cron: MyString
+  times: 1
+  done: false

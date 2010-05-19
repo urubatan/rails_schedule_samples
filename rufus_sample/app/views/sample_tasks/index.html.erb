@@ -1,0 +1,29 @@
+<h1>Listing sample_tasks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Cron</th>
+    <th>Times</th>
+    <th>Done</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sample_tasks.each do |sample_task| %>
+  <tr>
+    <td><%= sample_task.name %></td>
+    <td><%= sample_task.cron %></td>
+    <td><%= sample_task.times %></td>
+    <td><%= sample_task.done %></td>
+    <td><%= link_to 'Show', sample_task %></td>
+    <td><%= link_to 'Edit', edit_sample_task_path(sample_task) %></td>
+    <td><%= link_to 'Destroy', sample_task, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Sample task', new_sample_task_path %>
